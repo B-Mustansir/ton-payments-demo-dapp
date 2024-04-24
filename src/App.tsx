@@ -39,8 +39,8 @@ function App() {
       >
         <div className="app">
             <Header />
-            {/* <TxForm /> */}
-            <TxForm2 />
+            <TxForm />
+            {/* <TxForm2 /> */}
             <TonProofDemo />
             {/* <Footer /> */}
         </div>
