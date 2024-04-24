@@ -11,7 +11,7 @@ const defaultTx: SendTransactionRequest = {
     {
       address: 'UQAEGw4T5tWMaLAdr7_gF3pnggwiKRRIaSJGUu6l_iPamn6A',
       amount: '5000000', //0.005 TON is 5000000 nanoTON.
-      payload: body.toBoc().toString("base64")
+      payload: 'te6ccsEBAQEADAAMABQAAAAASGVsbG8hCaTc/g=='
     }
   ],
 };
