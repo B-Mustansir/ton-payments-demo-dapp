@@ -2,6 +2,7 @@ import './App.scss'
 import {THEME, TonConnectUIProvider} from "@tonconnect/ui-react";
 import {Header} from "./components/Header/Header";
 import {TxForm} from "./components/TxForm/TxForm";
+import {TxForm2} from "./components/TxForm/TxForm2";
 import {Footer} from "./components/Footer/Footer";
 import {TonProofDemo} from "./components/TonProofDemo/TonProofDemo";
 
@@ -38,7 +39,8 @@ function App() {
       >
         <div className="app">
             <Header />
-            <TxForm />
+            {/* <TxForm /> */}
+            <TxForm2 />
             <TonProofDemo />
             {/* <Footer /> */}
         </div>
