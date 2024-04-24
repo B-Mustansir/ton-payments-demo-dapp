@@ -5,7 +5,7 @@ import './style.scss';
 import { SendTransactionRequest, useTonConnectUI, useTonWallet } from "@tonconnect/ui-react";
 import { beginCell, toNano, Address } from '@ton/ton';
 
-const destinationAddress = Address.parse('EQD...');
+const destinationAddress = Address.parse('UQAEGw4T5tWMaLAdr7_gF3pnggwiKRRIaSJGUu6l_iPamn6A');
 
 const forwardPayload = beginCell()
   .storeUint(0, 32)
